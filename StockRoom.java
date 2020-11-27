@@ -6,13 +6,31 @@
 public class StockRoom extends Animals
 {
     private int foodCount;
- /**
+    private String foodType;
+
+   /**
   * constructor with only inheritance
   * @param animal
+  * @param enclosure
+  * @param animalCount
   */
-    public StockRoom(final String animal) {
-        super(animal);
+    public StockRoom(final String animal,String enclosure,int animalCount) {
+        super(animal,enclosure,animalCount);
     }
+    /**
+     * accessor method for foodType
+     * @return foodType
+     */
+    public String getFoodType() {
+		return foodType;
+	}
+    /**
+     * mutator method for foodType
+     * @param foodType
+     */
+	public void setFoodType(String foodType) {
+		this.foodType = foodType;
+	}
     /**
      * accessor method for foodCount
      * @return foodCount
@@ -31,10 +49,14 @@ public class StockRoom extends Animals
      * constructor
      * @param foodCount
      * @param animal
+     * @param foodType
+     * @param enclosure
+     * @param animalCount
      */
-    public StockRoom(int foodCount, String animal) {
-        super(animal);
+    public StockRoom(int foodCount,String foodType, String animal, String enclosure,int animalCount) {
+        super(animal,enclosure,animalCount);
         this.foodCount = foodCount;
+        this.foodType = foodType;
     }
     /**
      * adFood method provides a way to add food to foodCount
