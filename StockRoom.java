@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * StockRoom handles amount of food and type of food child of Animals class
  * @author StevenDennis AlexandraSuarez KylerYates AbdouToure 
@@ -69,7 +71,11 @@ public class StockRoom extends Animals
      * method to sort food by type
      * @param foodType
      */
-    public void sortFood(String foodType) {
-    	// TODO logic for sorting food into types and assigning amounts
-    }
+    // method for showing related animals by enclosure
+	public ArrayList<String> animalGroup(){
+		ArrayList<String> group = new ArrayList<String>();
+		//TODO logic for grouping animals by enclosure and adding them to the group array
+		return (group);
+		
+	}
 }
