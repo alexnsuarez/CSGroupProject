@@ -6,6 +6,8 @@
 public class Animals
 {
     private String animal;
+    // aggregation with Zoo
+    Zoo animalEnclosure;
     /**
      * accessor method for animal
      * @return animal
@@ -21,10 +23,11 @@ public class Animals
         this.animal = animal;
     }
     /**
-     * constructor
+     * constructor with aggregation
      * @param animal
      */
-    public Animals( String animal) {
+    public Animals( String animal, Zoo enclosure) {
+    	this.animalEnclosure = enclosure;
         this.animal = animal;
     }
-}
+    
