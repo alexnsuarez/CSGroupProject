@@ -3,7 +3,6 @@
  * @author StevenDennis AlexandraSuarez KylerYates AbdouToure 
  *
  */
-import java.util.ArrayList;
 public class Animals
 {
     private String animal;
@@ -53,23 +52,15 @@ public class Animals
 		this.animalCount = animalCount;
 	}
 	// method for showing related animals by enclosure
-	public ArrayList<String> animalGroup(){
-		ArrayList<String> group = new ArrayList<String>();
-		//TODO logic for grouping animals by enclosure and adding them to the group array
-		return (group);
-		
-	}
-
 	/**
      * constructor
      * @param animal
      * @param enclosure
      * @param animalCount
      */
-    public Animals(String animal, String enclosure, int animalCount) {
-    	this.enclosure = enclosure;
-        this.animal = animal;
-        this.animalCount = animalCount;
-
-}
+	public Animals(String animal, String enclosure, int animalCount) {
+		this.animal = animal;
+		this.enclosure = enclosure;
+		this.animalCount = animalCount;
+	}
     }
