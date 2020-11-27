@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * ZooMAIN creates objects and interface
  * @author StevenDennis AlexandraSuarez KylerYates AbdouToure 
@@ -7,51 +10,51 @@ public class ZooMAIN {
 	public static void main(String [] args) {
 		
 			Animals cheetah =
-			         new Animals("Cheetah", "Big Cats Enviornment");
+			         new StockRoom("Cheetah", "Big Cats Enviornment",14,150,"meat");
 			Animals hippo =
-			         new Animals("Hippo", "African Beasts");
+			         new StockRoom("Hippo", "African Beasts",7,800,"grasses and fruit");
 			Animals lion =
-			         new Animals("Lion", "Big Cats Enviornment");
+			         new StockRoom("Lion", "Big Cats Enviornment",30,150,"meat");
 			Animals tiger =
-					new Animals ("Tiger", "Big Cats Enviornment");
+					new StockRoom ("Tiger", "Big Cats Enviornment",6,150,"meat");
 			Animals rhino =
-					new Animals ("Rhino", "African Beasts");
+					new StockRoom ("Rhino", "African Beasts",4,800,"grasses and fruit");
 			Animals hyena =
-					new Animals ("Hyena", "African Beasts");
+					new StockRoom ("Hyena", "African Beasts",43,150,"meat");
 			Animals jackal =
-					new Animals ("Jackal", "African Beasts");
+					new StockRoom ("Jackal", "African Beasts",7,150,"meat");
 			Animals crocodile =
-					new Animals ("Crocodile", "Reptile House");
+					new StockRoom ("Crocodile", "Reptile House",12,150,"meat");
 			Animals alligator =
-					new Animals ("Alligator", "Reptile House");
+					new StockRoom ("Alligator", "Reptile House",13,150,"meat");
 			Animals turtle =
-					new Animals ("Turtle", "Reptile House");
+					new StockRoom ("Turtle", "Reptile House",250,400,"insects, grasses and fruit");
 			Animals snake =
-					new Animals ("Snake", "Reptile House");
+					new StockRoom ("Snake", "Reptile House",200,150,"meat");
 			Animals blbear =
-					new Animals ("Black Bear", "Bear Territory");
+					new StockRoom ("Black Bear", "Bear Territory",6,150,"meat");
 			Animals pbear =
-					new Animals ("Polar Bear", "Bear Territory");
+					new StockRoom ("Polar Bear", "Bear Territory",8,150,"meat");
 			Animals brbear =
-					new Animals ("Brown Bear", "Bear Territory");
+					new StockRoom ("Brown Bear", "Bear Territory",10,150,"meat");
 			Animals dolphin =
-					new Animals ("Dolphin", "Under the Sea");
+					new StockRoom ("Dolphin", "Under the Sea",15,600,"fish");
 			Animals penguins =
-					new Animals ("Penguin", "Under the Sea");
+					new StockRoom ("Penguin", "Under the Sea",23,600,"fish");
 			Animals whales =
-					new Animals ("Whales", "Under the Sea");
+					new StockRoom ("Whales", "Under the Sea",2,600,"fish");
 			Animals babboon =
-					new Animals ("Baboon", "Monkey Place");
+					new StockRoom ("Baboon", "Monkey Place",16,400,"insects, grasses and fruit");
 			Animals chimp =
-					new Animals ("Chimpanzee", "Monkey Place");
+					new StockRoom ("Chimpanzee", "Monkey Place",22,400,"insects, grasses and fruit");
 			Animals gorilla =
-					new Animals ("Gorilla", "Monkey Place");
+					new StockRoom ("Gorilla", "Monkey Place",5,400,"insects, grasses and fruits");
 			Animals flamingo =
-					new Animals ("Flamingo", "Birds of Paradise");
+					new StockRoom ("Flamingo", "Birds of Paradise",11,600,"fish");
 			Animals parrot =
-					new Animals ("Parrot", "Birds of Paradise");
+					new StockRoom ("Parrot", "Birds of Paradise",30,300,"insects, nuts and seeds");
 			Animals puffin =
-					new Animals ("Puffin", "Birds of Paradise");
+					new StockRoom ("Puffin", "Birds of Paradise",21,600,"fish");
 			
 			Scanner keyboard = new Scanner (System.in);
 			String searchedanimal;
