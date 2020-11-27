@@ -14,7 +14,7 @@ public class StockRoom extends Animals
   * @param enclosure
   * @param animalCount
   */
-    public StockRoom(final String animal,String enclosure,int animalCount) {
+    public StockRoom(String animal,String enclosure,int animalCount) {
         super(animal,enclosure,animalCount);
     }
     /**
@@ -46,14 +46,14 @@ public class StockRoom extends Animals
         this.foodCount = foodCount;
     }
     /**
-     * constructor
+     * constructor used when creating animal objects
      * @param foodCount
      * @param animal
      * @param foodType
      * @param enclosure
      * @param animalCount
      */
-    public StockRoom(int foodCount,String foodType, String animal, String enclosure,int animalCount) {
+    public StockRoom(String animal, String enclosure,int animalCount,int foodCount,String foodType) {
         super(animal,enclosure,animalCount);
         this.foodCount = foodCount;
         this.foodType = foodType;
