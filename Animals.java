@@ -36,7 +36,7 @@ public class Animals
 		this.enclosure = enclosure;
 	}
 	/**
-     * constructor with aggregation
+     * constructor
      * @param animal
      */
     public Animals( String animal, String enclosure) {
