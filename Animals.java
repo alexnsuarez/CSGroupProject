@@ -1,5 +1,7 @@
 /**
- * Animals stores animals and enclosures parent of StockRoom 
+ * Animals stores animals animal count and enclosures
+ * passing all to StockRoom class
+ * parent of StockRoom
  * @author StevenDennis AlexandraSuarez KylerYates AbdouToure 
  *
  */
