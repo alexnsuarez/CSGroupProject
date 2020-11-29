@@ -1,7 +1,8 @@
 /**
  * Zoo handles enclosures aggregation with Animals
  * @author StevenDennis AlexandraSuarez KylerYates AbdouToure 
- *  NOTE Zoo is being stuck inside zoo 
+ *  NOTE Zoo is being stuck inside zoo
+ *@deprecated
  */
 public class Zoo
 {
